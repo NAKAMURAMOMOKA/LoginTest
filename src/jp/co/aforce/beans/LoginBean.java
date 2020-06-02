@@ -31,13 +31,12 @@ public String getUsername() {
 	this.username=username;
 }
 
- public void setEmsg(String errro) {
- }
- public void getEmsg(String errro) {
- }
- public void setEmsg(String lb,LoginBean loginbean) {
- }
- public void getEmsg(String lb,LoginBean loginbean) {
+ private String errro;
 
- }
-	 }
+ public void setEmsg(String errro) {
+ 	 this.errro= errro;
+  }
+  public String getEmsg() {
+ 	 return errro;
+  }
+}
