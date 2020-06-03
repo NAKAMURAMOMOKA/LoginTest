@@ -12,7 +12,7 @@
 
   <servlet>
     <servlet-name>LoginServlet</servlet-name>
-    <servlet-class>jp.co.aforce.servlets.LoginServlet</servlet-class>
+    <servlet-class>jp.co.aforce.servlet.LoginServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>LoginServlet</servlet-name>

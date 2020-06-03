@@ -11,7 +11,13 @@
         <title>入力フォーム</title>
     </head>
     <body>
-<h1>Login画面</h1>
+
+   <h1>LOGIN</h1>
+   <font face="Lucida Sans" color="#008080" size="5">
+
+   <div style="text-align : center">Login successful!!</div>
+
+</font>
 
     </body>
 </html>

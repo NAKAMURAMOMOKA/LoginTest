@@ -64,8 +64,9 @@ public class LoginServlet extends HttpServlet {
         // ログインが失敗したときの処理
         } else {
             // エラーメッセージを設定
+        	request.setAttribute("loginBean", loginBean);
             loginBean.setEmsg("ユーザ名またはパスワードが違います");
-            request.setAttribute("loginBean", loginBean);
+
         }
         // forwaed_jsp に設定されているJSPへディスパッチ
         RequestDispatcher rDispatcher = request.getRequestDispatcher(forward_jsp);

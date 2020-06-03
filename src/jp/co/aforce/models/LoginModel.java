@@ -23,7 +23,7 @@ public class LoginModel {
             DBUtil.makeStatement();
 
             // SQLを実行
-            String SQL = "SELECT * FROM `users` WHERE `username`='"+username+"' AND `password`='"+password+"'";
+            String SQL = "SELECT * FROM `login` WHERE `username`='"+username+"' AND `password`='"+password+"'";
             rs = DBUtil.execute(SQL);
 
         } catch (Exception e) {

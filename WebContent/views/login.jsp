@@ -8,12 +8,16 @@
 <head>
 <!-- 文字エンコーディングの指定 -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!-- CSS 取り込む -->
+<link rel="stylesheet" href="css/login.css">
+
 <title>入力ホーム</title>
 </head>
 <body>
-<h1>Login画面</h1>
+<h1>LOGIN</h1>
 
-<form action="/LoginTest/LoginServlet"method="POST"></form>
+<form action="LoginServlet" method="post">
 
 Username:<input type ="text"name="username">
 Password:<input type ="password"name="password">
@@ -22,5 +26,6 @@ ${requestScope.loginBean.emsg}
 
 
 <input type="submit"value="ログイン">
+</form>
 </body>
 </html>
